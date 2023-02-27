@@ -5,12 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Run Mysql and postgres code",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true
+            "program": "src/main.py",
+            "console": "integratedTerminal"
         }
     ]
 }
