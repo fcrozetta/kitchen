@@ -3,25 +3,26 @@
     // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
-        {
-            "label": "[Start] Databases",
-            "type": "shell",
-            "command": "docker-compose -f .devcontainer/docker-compose.yml up -d",
-            "isBackground": true,
-            "runOptions": {
-                "runOn": "folderOpen"
-            },
-            "presentation": {
-                "reveal": "silent",
-                "panel": "dedicated"
-            },
-            "problemMatcher": []
-        },
-        {
-            "label": "[Stop] Databases",
-            "type": "shell",
-            "command": "docker-compose -f .devcontainer/docker-compose.yml down",
-            "problemMatcher": []
-        }
+        // {
+        //     "label": "[Start] Databases",
+        //     "type": "shell",
+        //     "command": "docker-compose -f .devcontainer/docker-compose.yml up -d",
+        //     "isBackground": true,
+        //     "runOptions": {
+        //         "runOn": "folderOpen"
+        //     },
+        //     "presentation": {
+        //         "reveal": "silent",
+        //         "panel": "shared",
+        //         "revealProblems": "onProblem"
+        //     },
+        //     "problemMatcher": []
+        // },
+        // {
+        //     "label": "[Stop] Databases",
+        //     "type": "shell",
+        //     "command": "docker-compose -f .devcontainer/docker-compose.yml down",
+        //     "problemMatcher": []
+        // }
     ]
 }
