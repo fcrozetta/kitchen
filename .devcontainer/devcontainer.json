@@ -8,6 +8,13 @@
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
 		"ghcr.io/devcontainers-contrib/features/poetry:2": {}
 	},
+	"containerEnv": {
+		"POSTGRES_USER": "myuser",
+		"POSTGRES_PASSWORD": "mypassword",
+		"POSTGRES_DB": "mydatabase",
+		"MYSQL_ROOT_PASSWORD": "mypassword",
+		"MYSQL_DATABASE": "mydatabase"
+	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	"postCreateCommand": "bash .devcontainer/scripts/postCreate.sh",
